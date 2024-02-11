@@ -1,0 +1,22 @@
+
+#form_create
+{
+    width: 40%;
+    border:outset; 
+    border-radius: 4px;
+    height: auto;
+    box-shadow: 5px 5px 5px grey;
+}
+#textarea
+{
+    width: 90%;
+}
+textArea
+{
+    width: 100%;
+}
+.btn-info
+{
+    float: right;
+    margin-top: 10px;
+}

@@ -1,0 +1,107 @@
+.payment-body
+            {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+            }            
+            .payment
+            {
+                position: relative;
+                width: 60%;
+                height: 80%;
+                border: outset;
+                box-shadow: 3px 3px 3px grey;
+            }
+            
+            .payment-detail
+            {
+                margin-top: 2%;
+                position: relative;
+                height: 40%;
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                border-left: groove;
+                border-right: groove;
+                margin-left: 100px;
+            }
+            .payment-option
+            {
+               position: absolute;
+               top: 50%;
+               height: 50%;
+               width: 80%;
+               border-top: groove;
+               margin-left: 100px;
+            }
+            .payment1
+            {
+                position: relative;
+                width: 80%;
+                height: 40%;
+                margin-top: 2%;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                align-items: center;
+                border: groove;
+                border-radius: 5px;
+                padding-left: 20px;
+            }
+            .payment2
+            {
+                position: relative;
+                margin-top: 10px;
+                width: 80%;
+                height: 40%;
+                padding-left: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                align-items: center;
+                border: groove;
+                border-radius: 5px;
+            }
+            .balance
+            {
+                position: absolute;
+                width: 20%;
+                height: 20%;
+                right: 10px;
+                display: flex;
+                align-items: center;
+                border-radius: 5px;
+                border: outset;
+            }
+            .btn
+            {
+                position: absolute;
+                right: 80px;
+                bottom: 0;
+            }
+            .order-btn
+            {
+                background-color: #86b7fe;
+                border-radius: 3px;
+                color: white;
+            }
+            table
+            {
+                table-layout: auto;
+                width: 100%;
+                margin: 50px;
+            }
+            #cpn
+            {
+                border-bottom: solid 2px;
+            }
+            td
+            {
+                text-align: right;
+            }
+            h5
+            {
+                margin-left: 100px;
+            }

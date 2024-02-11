@@ -1,0 +1,28 @@
+img
+{
+    width: 400px;
+    height: auto;
+}
+body
+{
+    background: black;
+    }
+table
+{   
+    align-content: center;
+    margin:2%;
+    font-size: 30px;
+}
+th,h1
+{
+    color: Grey;
+}
+td
+{
+    color: lightgrey;
+}
+a
+{
+    padding: 1px;
+    text-decoration: none;
+}

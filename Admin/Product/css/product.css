@@ -1,0 +1,75 @@
+
+#table
+{
+    padding: 10px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.table-con
+{
+     
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+#table-image
+{
+    border-radius: 5px;
+    background-color: teal;
+    
+}
+td
+{
+    
+    margin-left: 5px;
+}
+th
+{
+    height: 40px;
+}
+.fa-eye
+{
+    color: goldenrod;
+}
+.fa-trash
+{
+    color: red;
+}
+.fa-pencil{
+    color: black;
+}
+img:hover
+{
+    opacity: 0.8;
+}
+#icon{
+    margin-right: 10px;
+}
+.category
+{
+    display: flex;
+    float: right;
+    color: darkred;
+    margin-right: 100px;
+}
+@media screen and (max-width:1234px)
+{
+    #table
+    {   
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+}
+@media screen and (max-width:860px)
+{
+    #table
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+}

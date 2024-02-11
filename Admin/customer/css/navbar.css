@@ -1,0 +1,46 @@
+/* NavBar Start*/
+        .navout
+        {
+            display: flex;
+            justify-content: center;
+        }
+            .NavBar
+            {
+                position: relative;
+                width: 90%;
+                height: auto;
+                background-color: black;
+                border-radius: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .Nav-content
+            {
+                color: white;
+            }
+            .Navlist
+            {
+                display: inline;
+                margin: 10px;
+            }
+            .dp
+            {
+                position: relative;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            a
+            {
+                text-decoration: none;
+                color: white;
+            }
+            a:hover
+            {
+                color: grey;
+            }
+            .dp:hover
+            {
+                opacity: 0.5;
+            }
+ /* NavBar End*/
